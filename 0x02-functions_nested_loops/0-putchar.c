@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
-* main - check the code
+* main - Entry point
 *
-* Return: Always 0.
-*
-* char - data type for characters
+* Return: Always o
 */
 
 int main(void)
@@ -18,9 +16,8 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
+
 	_putchar('\n');
 
-
 	return (0);
-
 }
