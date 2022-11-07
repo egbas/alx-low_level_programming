@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 
 /**
 * main - main function
@@ -8,10 +9,11 @@
 * Return: return and int
 */
 
-int main(int argc, char *argv[])
+int main(int argc, __attribute__((unused)) char *argv[])
 {
-	(void) argc;
-	printf("%s\n", argv[0]);
+	argc -= 1;
+
+	printf("%d\n", argc);
 
 	return (0);
 
